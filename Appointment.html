@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+   </head> 
+   <body >
+    <!-- Navigation bar-->
+    <div class="topnav">
+        <!-- Clinic logo & name of health center -->
+        <img src="images/cross.png" alt="Kuyasa Health Center Logo">
+        <a id="logo_name"> Kuyasa Health Center </a>
+        <a href="contact.html">Contact</a>
+        <a href="Services.html">Services</a>
+        <a href="About Us.html">About Us</a>
+        <a class="active"href="index.html">Home</a>
+    </div>
+
+    <!-- Scehduling Text -->
+    <div class="inner-layer">
+        <div class="containers">
+            <div class=" row no-margin">
+                <div class="col-sm-7">
+                    <div class="content">
+            <h1>Schedule your appointment to save your time</h1>
+            <p> Our website offers a hassle-free appointment scheduling experience with a user-friendly online booking system. 
+                Whether you need medical attention or mental health support, our platform provides flexible scheduling options that cater to your convenience.
+                To help you stay on top of your appointments, we offer automated reminders for both medical and mental health sessions. 
+                This streamlined process ensures that you receive the care you need while minimizing any scheduling-related stress.</p>
+         </div>
+
+     </div>
+
+<!-- Appointment Form -->
+    <div class="container" >
+        <h1>Appointment Form</h1>
+        <form class="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Please enter your name" required>
+            
+            <label for="Surname">Surname:</label>
+            <input type="text" id="Surname" placeholder="Please enter your surname" required>
+            
+            <label for="checkin"> Appointment Date</label>
+            <input type="date" id="checkin" name="checkin" required>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+   </body>
+</html>
